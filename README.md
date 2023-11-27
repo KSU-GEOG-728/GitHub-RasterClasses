@@ -30,17 +30,7 @@ Build on this script to include the following NEW features and capabilities:
 2. Uses new environment classes and setting to ensure your final result:
    * Has the same spatial extent of Fort Riley
    * Contains valid NDVI values only for cells within the boundary of Fort Riley
-3. Effectively uses one or more os module functions to assist with naming the final NDVI and reclassified NDVI output files.
-Effectively traps geoprocessing errors in a try-except block.
-
-1. Uses one of the three available Landsat 8 images as the raster input.
-2. Uses at least one, but no more than three, local variables.
-3. Uses only Spatial Analyst functions – no Python math!
-4. Checks out/in the Spatial Analyst extension.
-5. Uses at least one "if-else" and "try-except" block for error trapping.
-6. Saves one file – the output NDVI grid - to a workspace other than current workspace.
-7. Prints only one message – either script success, user lacks the required extension, or a Level 2 geoprocessing error message.
-8. The "script success" message should also report name of output file, its spatial resolution, and units..
+3. Saves two files – the original output NDVI grid and the reclassified NDVI grid - to a workspace other than current workspace using one or more os module functions.
 
 ## Rubric:
 
@@ -48,4 +38,4 @@ Review the assignment rubric available on Canvas for additional details on how y
 
 ## Submission:
 
-Commit your code changes for <code>GitHub-Rasters.py</code> to your assignment repository on GitHub.
+Commit your code changes for <code>GitHub-RasterClasses.py</code> to your assignment repository on GitHub.
