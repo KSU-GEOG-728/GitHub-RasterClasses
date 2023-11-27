@@ -21,11 +21,16 @@ Edit the provided Python file called <code>GitHub-RasterClasses.py</code> to inc
 Build on this script to include the following NEW features and capabilities:
 
 1. Uses a Spatial Analyst Remap class to reclassify your calculated NDVI output into the following 6 classes:
-   0 = -1 – 0  1 = 0 – 0.2  2 = 0.2 – 0.4  3 = 0.4 – 0.6  4 = 0.6 – 0.8  5 = 0.8 – 1
+   * 0 = -1 – 0
+   * 1 = 0 – 0.2
+   * 2 = 0.2 – 0.4
+   * 3 = 0.4 – 0.6
+   * 4 = 0.6 – 0.8
+   * 5 = 0.8 – 1
 2. Uses new environment classes and setting to ensure your final result:
-Has the same spatial extent of Fort Riley
-Contains valid NDVI values only for cells within the boundary of Fort Riley
-Effectively uses one or more os module functions to assist with naming the final NDVI and reclassified NDVI output files.
+   * Has the same spatial extent of Fort Riley
+   * Contains valid NDVI values only for cells within the boundary of Fort Riley
+3. Effectively uses one or more os module functions to assist with naming the final NDVI and reclassified NDVI output files.
 Effectively traps geoprocessing errors in a try-except block.
 
 1. Uses one of the three available Landsat 8 images as the raster input.
