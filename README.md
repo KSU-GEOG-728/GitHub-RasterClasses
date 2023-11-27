@@ -7,7 +7,7 @@ Accept the GitHub Classroom assignment <code>GitHub-RasterClasses</code> and clo
 
 ### Task:
 
-Edit the provided Python file called <code>GitHub-RasterClasses.py</code> to include your coding work from last week.  Remember that you were to create a new stand-alone script that calculates normalized difference vegetation index (NDVI) from a multi-band raster dataset.  Your script was to have included the following features and capabilities:
+Edit the provided Python file called <code>GitHub-RasterClasses.py</code> to include your coding work from last week.  Remember that you were to create a new stand-alone script that calculated normalized difference vegetation index (NDVI) from a multi-band raster dataset.  Your script should have included the following features and capabilities:
 
 1. Uses one of the three available Landsat 8 images as the raster input.
 2. Uses at least one, but no more than three, local variables.
@@ -18,7 +18,7 @@ Edit the provided Python file called <code>GitHub-RasterClasses.py</code> to inc
 7. Prints only one message – either script success, user lacks the required extension, or a Level 2 geoprocessing error message.
 8. The "script success" message should also report name of output file, its spatial resolution, and units.
 
-Build on this script to include the following NEW features and capabilities:
+Build on this script to include the following NEW features and capabilities.  Unless otherwise specified below, all requirements from last week will also apply to this exercise.
 
 1. Uses a Spatial Analyst Remap class to reclassify your calculated NDVI output into the following 6 classes:
    * 0 = -1 – 0
@@ -27,10 +27,10 @@ Build on this script to include the following NEW features and capabilities:
    * 3 = 0.4 – 0.6
    * 4 = 0.6 – 0.8
    * 5 = 0.8 – 1
-2. Uses new environment classes and setting to ensure your final result:
-   * Has the same spatial extent of Fort Riley
-   * Contains valid NDVI values only for cells within the boundary of Fort Riley
-3. Saves two files – the original output NDVI grid and the reclassified NDVI grid - to a workspace other than current workspace using one or more os module functions.
+2. Uses new environment classes and settings to ensure your final result:
+   * Has the same spatial extent of Fort Riley, Kansas
+   * Contains valid NDVI values only for cells within the boundary of Fort Riley, Kansas
+3. Saves two files – the original output NDVI grid (from last week) and the reclassified NDVI grid (from this week) - to a workspace other than current workspace using one or more os module functions.
 
 ## Rubric:
 
