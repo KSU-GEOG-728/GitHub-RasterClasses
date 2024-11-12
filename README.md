@@ -3,7 +3,7 @@ Exercise for GEOG 728 Programming for Geographic Analysis at Kansas State Univer
 
 ### Instructions:
 
-Accept the GitHub Classroom assignment <code>GitHub-RasterClasses</code> and clone the new repository as a local personal repository.  We will use the same compressed ArcGIS Pro project file from the <code>GitHub-Rasters</code> exercise for this week's work.  Recall that the compressed project file is too large to store in GitHub.  Instead, you can download it from last week's Canvas module or <code>W:\GEOG\Courses\GEOG728\Exercises</code>,  Uncompress the provided ZIP file to access the ArcGIS Pro project file in your local repository workspace.  The only file which needs to be pushed to origin at the conclusion of the exercise is a single Python script.  There is no requirement to prepare and submit a script-based tool.  Should you encounter difficulties during the week, seek assistance by posting an issue in GitHub.
+Accept the GitHub Classroom assignment <code>GitHub-RasterClasses</code> and clone the new repository as a local personal repository.  We will use the same compressed ArcGIS Pro project file from the <code>GitHub-Rasters</code> exercise for this week's work.  Recall that the compressed project file is too large to store in GitHub.  Instead, you can download it from last week's Canvas module or <code>W:\GEOG\Courses\GEOG728\Exercises</code>.  Uncompress the provided ZIP file to access the ArcGIS Pro project file in your local repository workspace.  The only file which needs to be pushed to origin at the conclusion of the exercise is a single Python script.  There is no requirement to prepare and submit a script-based tool.  Should you encounter difficulties during the week, seek assistance by posting an issue in GitHub.
 
 ### Task:
 
