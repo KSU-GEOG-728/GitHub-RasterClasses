@@ -1,12 +1,12 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """
     File name: demo13_2.py
     Author: Shawn Hutchinson
     Description:  Example script that sets the raster "mask" and "extent" environments
-    Date created: November 27, 2023
-    Python Version: 3.9.16
+    Date created: November 19, 2025
+    Python Version: 3.11.11
 """
 
 # Import required modules and classes:
@@ -42,4 +42,5 @@ except:
     print("Warning - An unexpected error occurred...")
 
 finally:
+
     print("Script ran to completion...excellent!")        
