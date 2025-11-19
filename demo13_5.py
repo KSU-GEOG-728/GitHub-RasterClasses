@@ -1,12 +1,12 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """
     File name: demo13_5.py
     Author: Shawn Hutchinson
     Description: Example script that performs map algebra on a raster object with the "snapRaster" environment
-    Date created: November 27, 2023
-    Python Version: 3.9.16
+    Date created: November 19, 2025
+    Python Version: 3.11.11
 """
 
 # Import required modules
