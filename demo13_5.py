@@ -26,13 +26,8 @@ outWorkspace = "D:/GitHub/GitHub-Rasters/scratch.gdb"
 
 # Perform geoprocessing and trap errors
 try:
-    if arcpy.CheckExtension("Spatial") == "Available":
-        arcpy.CheckOutExtension("Spatial")
-        outGrid = demGrid * 3.28984
-        outGrid.save(os.path.join(outWorkspace, "elev_ft_kz5"))
-        arcpy.CheckInExtension("Spatial")
-    else:
-        print("Required Spatial Analyst extension is not available!")
+    outGrid = demGrid * 3.28984
+    outGrid.save(os.path.join(outWorkspace, "elev_ft_kz5"))
 
 except arcpy.ExecuteError:
     print(arcpy.GetMessages(2))
@@ -41,4 +36,4 @@ except:
     print("Warning - An unexpected error occurred...")
 
 finally:
-    print("Script ran to completion...excellent!")  
+    print("Script ran to completion...excellent!")
